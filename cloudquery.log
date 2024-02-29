@@ -1,0 +1,151 @@
+2024-02-29T17:29:03Z INF Loading spec(s) args=["conf.yml"] module=cli
+2024-02-29T17:29:03Z ERR exiting with error error="failed to load spec(s) from conf.yml. Error: expecting at least one source" module=cli
+2024-02-29T17:31:03Z INF Loading spec(s) args=["conf.yml","sqlite.yml"] module=cli
+2024-02-29T17:31:03Z WRN when using the CloudQuery registry, it's recommended to log in via `cloudquery login`. Logging in allows for better rate limits and downloading of premium plugins module=cli
+2024-02-29T17:31:04Z INF Plugin server listening address=/tmp/cq-reAXpJukOrQstcNv.sock module=cli
+2024-02-29T17:31:05Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:31:05Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-reAXpJukOrQstcNv.sock module=cli signal=interrupt
+2024-02-29T17:31:05Z ERR exiting with error error="failed to get plugin information: 404 Not Found" module=cli
+2024-02-29T17:31:32Z INF Loading spec(s) args=["conf.yml","sqlite.yml"] module=cli
+2024-02-29T17:31:32Z WRN when using the CloudQuery registry, it's recommended to log in via `cloudquery login`. Logging in allows for better rate limits and downloading of premium plugins module=cli
+2024-02-29T17:31:32Z INF Plugin server listening address=/tmp/cq-IqyUayGSieCilwvb.sock module=cli
+2024-02-29T17:31:33Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:31:33Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-IqyUayGSieCilwvb.sock module=cli signal=interrupt
+2024-02-29T17:31:33Z ERR exiting with error error="failed to get plugin information: 404 Not Found" module=cli
+2024-02-29T17:32:15Z INF Loading spec(s) args=["conf.yml","sqlite.yml"] module=cli
+2024-02-29T17:32:15Z WRN when using the CloudQuery registry, it's recommended to log in via `cloudquery login`. Logging in allows for better rate limits and downloading of premium plugins module=cli
+2024-02-29T17:32:15Z INF Plugin server listening address=/tmp/cq-ozsnuCffMDjgomXh.sock module=cli
+2024-02-29T17:32:16Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:32:16Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-ozsnuCffMDjgomXh.sock module=cli signal=interrupt
+2024-02-29T17:32:16Z ERR exiting with error error="unauthorized. Try logging in via `cloudquery login`" module=cli
+2024-02-29T17:32:56Z ERR exiting with error error="failed to get refresh token" module=cli
+2024-02-29T17:32:59Z INF Loading spec(s) args=["conf.yml","sqlite.yml"] module=cli
+2024-02-29T17:32:59Z WRN when using the CloudQuery registry, it's recommended to log in via `cloudquery login`. Logging in allows for better rate limits and downloading of premium plugins module=cli
+2024-02-29T17:33:00Z INF Plugin server listening address=/tmp/cq-RSoDjnnHKJoJqcGx.sock module=cli
+2024-02-29T17:33:01Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:33:01Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-RSoDjnnHKJoJqcGx.sock module=cli signal=interrupt
+2024-02-29T17:33:01Z ERR exiting with error error="unauthorized. Try logging in via `cloudquery login`" module=cli
+2024-02-29T17:33:37Z ERR exiting with error error="failed to get refresh token" module=cli
+2024-02-29T17:35:04Z INF Loading spec(s) args=["conf.yml","sqlite.yml"] module=cli
+2024-02-29T17:35:04Z INF Plugin server listening address=/tmp/cq-TZWAGsCHavzpkItb.sock module=cli
+2024-02-29T17:35:06Z INF Plugin server listening address=/tmp/cq-elqLlKodlZIKoPGf.sock module=cli
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.011 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.168 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.009 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.026 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF Start sync destinations=["sqlite (cloudquery/sqlite@v2.7.2)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)" sync_time=2024-02-29T17:35:07Z
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=GetSpecSchema grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.039 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetSpecSchema grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.055 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.007 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.136 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF empty JSON schema for plugin spec, skipping validation module=cli
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.005 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.758 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF Start fetching resources destinations=["sqlite (cloudquery/sqlite@v2.7.2)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)"
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=Sync grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.119 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.02 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.722 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.414 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF Migrating table module=sqlite-dest table=cq_state_coinpaprika
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=8.441 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=Read grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.035 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF finished call grpc.code=OK grpc.component=server grpc.method=Read grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=0.245 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:07Z INF Connected to state backend module=coinpaprika-src table_name=cq_state_coinpaprika
+2024-02-29T17:35:07Z INF top level table resolver started client=coinpaprika module=coinpaprika-src table=coinpaprika_coins
+2024-02-29T17:35:07Z INF Send request attempt=0 method=GET module=coinpaprika-src url=https://api.coinpaprika.com/v1/coins
+2024-02-29T17:35:07Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=16.13 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:35:08Z INF Migrating table module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:35:08Z INF Migrating table module=sqlite-dest table=coinpaprika_tickers
+2024-02-29T17:35:08Z INF Migrating table module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:35:28Z INF batch written successfully duration=8.283558 len=8 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:36:51Z INF Send request attempt=0 method=GET module=coinpaprika-src url=https://api.coinpaprika.com/v1/tickers/btc-bitcoin/historical?end=2024-02-28T19%3A00%3A00-05%3A00&interval=24h&start=2024-02-15T00%3A00%3A00Z
+2024-02-29T17:36:54Z INF batch written successfully duration=330.771616 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:36:57Z INF batch written successfully duration=319.465752 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:36:59Z INF batch written successfully duration=345.552487 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:37:02Z INF batch written successfully duration=339.671903 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:37:05Z INF batch written successfully duration=361.895845 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:37:07Z INF batch written successfully duration=344.214729 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:37:09Z INF table sync finished client=coinpaprika errors=0 module=coinpaprika-src resources=67472 table=coinpaprika_coins
+2024-02-29T17:37:09Z INF table sync finished client=coinpaprika errors=0 module=coinpaprika-src resources=14 table=coinpaprika_tickers
+2024-02-29T17:37:09Z INF top level table resolver started client=coinpaprika module=coinpaprika-src table=coinpaprika_exchanges
+2024-02-29T17:37:11Z INF batch written successfully duration=8.366188 len=14 module=sqlite-dest table=coinpaprika_tickers
+2024-02-29T17:37:27Z INF batch written successfully duration=267.721234 len=7464 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:38:35Z INF Send request attempt=0 method=GET module=coinpaprika-src url=https://api.coinpaprika.com/v1/exchanges
+2024-02-29T17:38:35Z INF table sync finished client=coinpaprika errors=0 module=coinpaprika-src resources=909 table=coinpaprika_exchanges
+2024-02-29T17:38:35Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:38:35-05:00 grpc.time_ms=0.007 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:38:35Z INF batch written successfully duration=39.719243 len=892 module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:38:35Z INF batch written successfully duration=7.118891 len=1 module=sqlite-dest table=cq_state_coinpaprika
+2024-02-29T17:38:35Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:38:35-05:00 grpc.time_ms=47.647 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:38:35Z INF finished call grpc.code=OK grpc.component=server grpc.method=Sync grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=207869.81 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:38:35Z INF batch written successfully duration=8.322902 len=17 module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:38:35Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:35:07-05:00 grpc.time_ms=207895.28 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:38:35Z INF started call grpc.component=server grpc.method=Close grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:38:35-05:00 grpc.time_ms=0.011 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:38:35Z INF finished call grpc.code=OK grpc.component=server grpc.method=Close grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:38:35-05:00 grpc.time_ms=0.366 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:38:35Z INF End sync destinations=["sqlite (cloudquery/sqlite@v2.7.2)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)" sync_time=2024-02-29T17:35:07Z
+2024-02-29T17:38:35Z INF Sending sync summary to analyticsv1.cloudquery.io:443 module=cli
+2024-02-29T17:38:35Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:38:35Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-elqLlKodlZIKoPGf.sock module=cli signal=interrupt
+2024-02-29T17:38:35Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:38:35Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-TZWAGsCHavzpkItb.sock module=cli signal=interrupt
+2024-02-29T17:44:46Z INF Loading spec(s) args=["conf.yml","sqlite.yml"] module=cli
+2024-02-29T17:44:46Z INF Plugin server listening address=/tmp/cq-AhRvgFvEnsjgwppw.sock module=cli
+2024-02-29T17:44:47Z INF Plugin server listening address=/tmp/cq-WuyHsUGCNbQTXrvI.sock module=cli
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.01 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.07 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.01 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.069 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF Start sync destinations=["sqlite (cloudquery/sqlite@v2.7.2)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)" sync_time=2024-02-29T17:44:48Z
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=GetSpecSchema grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.009 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetSpecSchema grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.026 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.007 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.294 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF empty JSON schema for plugin spec, skipping validation module=cli
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.006 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.268 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF Start fetching resources destinations=["sqlite (cloudquery/sqlite@v2.7.2)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)"
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=Sync grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.142 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.018 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.048 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.331 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF Migrating table module=sqlite-dest table=cq_state_coinpaprika
+2024-02-29T17:44:48Z INF Table exists, auto-migrating module=sqlite-dest table=cq_state_coinpaprika
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=1.602 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=Read grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.114 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF finished call grpc.code=OK grpc.component=server grpc.method=Read grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=0.538 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:48Z INF Connected to state backend module=coinpaprika-src table_name=cq_state_coinpaprika
+2024-02-29T17:44:48Z INF top level table resolver started client=coinpaprika module=coinpaprika-src table=coinpaprika_coins
+2024-02-29T17:44:48Z INF Send request attempt=0 method=GET module=coinpaprika-src url=https://api.coinpaprika.com/v1/coins
+2024-02-29T17:44:48Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=5.356 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:44:49Z INF Migrating table module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:44:49Z INF Table exists, auto-migrating module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:44:49Z INF Migrating table module=sqlite-dest table=coinpaprika_tickers
+2024-02-29T17:44:49Z INF Table exists, auto-migrating module=sqlite-dest table=coinpaprika_tickers
+2024-02-29T17:44:49Z INF Migrating table module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:44:49Z INF Table exists, auto-migrating module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:44:51Z INF batch written successfully duration=397.095588 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:44:54Z INF batch written successfully duration=364.585708 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:44:57Z INF batch written successfully duration=363.321334 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:45:00Z INF batch written successfully duration=388.630905 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:45:02Z INF batch written successfully duration=370.280062 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:45:05Z INF batch written successfully duration=377.427988 len=10000 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:45:07Z INF table sync finished client=coinpaprika errors=0 module=coinpaprika-src resources=67472 table=coinpaprika_coins
+2024-02-29T17:45:07Z INF table sync finished client=coinpaprika errors=0 module=coinpaprika-src resources=0 table=coinpaprika_tickers
+2024-02-29T17:45:07Z INF top level table resolver started client=coinpaprika module=coinpaprika-src table=coinpaprika_exchanges
+2024-02-29T17:45:25Z INF batch written successfully duration=275.475454 len=7472 module=sqlite-dest table=coinpaprika_coins
+2024-02-29T17:46:32Z INF Send request attempt=0 method=GET module=coinpaprika-src url=https://api.coinpaprika.com/v1/exchanges
+2024-02-29T17:46:32Z INF table sync finished client=coinpaprika errors=0 module=coinpaprika-src resources=909 table=coinpaprika_exchanges
+2024-02-29T17:46:32Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:46:32-05:00 grpc.time_ms=0.007 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:46:33Z INF batch written successfully duration=47.107467 len=895 module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:46:33Z INF batch written successfully duration=7.626244 len=1 module=sqlite-dest table=cq_state_coinpaprika
+2024-02-29T17:46:33Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:46:32-05:00 grpc.time_ms=55.304 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:46:33Z INF finished call grpc.code=OK grpc.component=server grpc.method=Sync grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=104254.19 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:46:33Z INF batch written successfully duration=8.525094 len=14 module=sqlite-dest table=coinpaprika_exchanges
+2024-02-29T17:46:33Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:44:48-05:00 grpc.time_ms=104278.11 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:46:33Z INF started call grpc.component=server grpc.method=Close grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:46:33-05:00 grpc.time_ms=0.009 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:46:33Z INF finished call grpc.code=OK grpc.component=server grpc.method=Close grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-02-29T12:46:33-05:00 grpc.time_ms=0.256 module=cli peer.address=@ protocol=grpc
+2024-02-29T17:46:33Z INF End sync destinations=["sqlite (cloudquery/sqlite@v2.7.2)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)" sync_time=2024-02-29T17:44:48Z
+2024-02-29T17:46:33Z INF Sending sync summary to analyticsv1.cloudquery.io:443 module=cli
+2024-02-29T17:46:33Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:46:33Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-WuyHsUGCNbQTXrvI.sock module=cli signal=interrupt
+2024-02-29T17:46:33Z INF waiting for source plugin to terminate module=cli
+2024-02-29T17:46:33Z INF Got stop signal. Plugin server shutting down address=/tmp/cq-AhRvgFvEnsjgwppw.sock module=cli signal=interrupt

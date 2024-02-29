@@ -1,0 +1,9 @@
+kind: destination
+spec:
+  name: sqlite
+  path: cloudquery/sqlite
+  registry: cloudquery
+  version: "v2.7.2"
+  spec:
+    connection_string: ./db.sql
+
