@@ -7,6 +7,6 @@ ally:
       database: 'database'
       schema: 'main'
       schemas_and_paths:
-        main: '../assessment.db'
+        main: '../db.sql'
       schema_directory: 'file_path'
 
