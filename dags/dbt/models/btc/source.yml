@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: cloudquery_coinpaprika
-    schema: main
+    schema: public
     tables:
       - name: coinpaprika_tickers
         identifier: coinpaprika_tickers

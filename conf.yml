@@ -14,7 +14,7 @@ spec:
   spec:
     api_debug: true
     start_date: "2023-05-15T08:00:00Z" # for free plan up to 1 year ago
-    interval: 1h
+    interval: 24h
     rate_duration: 30d
     rate_number: 25000
     tickers:
