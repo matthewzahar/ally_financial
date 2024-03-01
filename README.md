@@ -1,6 +1,10 @@
 
 # Ally Financial Analysis
 
+### Notes
+This was completed on a windows machine within WSL.
+
+
 ## Dependencies
 - Docker
 - Astro cli
