@@ -638,3 +638,40 @@
 2024-03-01T00:09:35Z INF waiting for source plugin to terminate module=cli
 2024-03-01T00:09:35Z INF waiting for source plugin to terminate module=cli
 2024-03-01T00:09:35Z ERR exiting with error error="received interrupt signal from OS: failed to sync v3 source coinpaprika: unexpected error from sync client receive: rpc error: code = Canceled desc = context canceled" module=cli
+2024-03-01T12:43:52Z INF Loading spec(s) args=["conf.yml","postgres.yml"] module=cli
+2024-03-01T12:43:53Z INF Plugin server listening address=/tmp/cq-RgNySvLfLsNVsFsD.sock module=cli
+2024-03-01T12:43:54Z INF Plugin server listening address=/tmp/cq-uuShNZMsQOWmwZZC.sock module=cli
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.01 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.055 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.012 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.068 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF Start sync destinations=["postgres (cloudquery/postgresql@v7.3.6)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)" sync_time=2024-03-01T12:43:55Z
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=GetSpecSchema grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.008 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetSpecSchema grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.03 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.006 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF Initializing postgresql destination module=pg-dest pgx_log_level="invalid level 0"
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=16.345 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF empty JSON schema for plugin spec, skipping validation module=cli
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.012 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=Init grpc.method_type=unary grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=1.015 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF Start fetching resources destinations=["postgres (cloudquery/postgresql@v7.3.6)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)"
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=Sync grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.317 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.014 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=GetVersions grpc.method_type=unary grpc.service=cloudquery.discovery.v1.Discovery grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.052 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.167 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF Migrating table module=pg-dest table=cq_state_coinpaprika
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=42.387 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=Read grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=0.494 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF finished call grpc.code=OK grpc.component=server grpc.method=Read grpc.method_type=server_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=3.519 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF Connected to state backend module=coinpaprika-src table_name=cq_state_coinpaprika
+2024-03-01T12:43:55Z INF top level table resolver started client=coinpaprika module=coinpaprika-src table=coinpaprika_coins
+2024-03-01T12:43:55Z INF Send request attempt=0 method=GET module=coinpaprika-src url=https://api.coinpaprika.com/v1/coins
+2024-03-01T12:43:55Z INF started call grpc.component=server grpc.method=Write grpc.method_type=client_stream grpc.service=cloudquery.plugin.v3.Plugin grpc.start_time=2024-03-01T07:43:55-05:00 grpc.time_ms=51.507 module=cli peer.address=@ protocol=grpc
+2024-03-01T12:43:55Z INF Migrating table module=pg-dest table=coinpaprika_coins
+2024-03-01T12:43:55Z INF Migrating table module=pg-dest table=coinpaprika_tickers
+2024-03-01T12:43:55Z INF Migrating table module=pg-dest table=coinpaprika_exchanges
+2024-03-01T12:44:03Z INF End sync destinations=["postgres (cloudquery/postgresql@v7.3.6)"] module=cli source="coinpaprika (coinpaprika/coinpaprika@v2.0.0)" sync_time=2024-03-01T12:43:55Z
+2024-03-01T12:44:03Z INF Sending sync summary to analyticsv1.cloudquery.io:443 module=cli
+2024-03-01T12:44:03Z INF waiting for source plugin to terminate module=cli
+2024-03-01T12:44:03Z INF waiting for source plugin to terminate module=cli
+2024-03-01T12:44:03Z ERR exiting with error error="received interrupt signal from OS: failed to sync v3 source coinpaprika: unexpected error from sync client receive: rpc error: code = Canceled desc = context canceled" module=cli

@@ -18,4 +18,4 @@ spec:
     rate_duration: 30d
     rate_number: 25000
     tickers:
-      ["btc-bitcoin"]
+      ["btc-bitcoin", "eth-ethereum"]
