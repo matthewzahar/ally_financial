@@ -1,0 +1,21 @@
+kind: source
+spec:
+  name: "coinpaprika"
+  path: "coinpaprika/coinpaprika"
+  registry: "cloudquery"
+  version: "v2.0.0"
+  backend_options:
+    table_name: "cq_state_coinpaprika"
+    connection: "@@plugins.postgres.connection"
+  tables:
+    [ "*" ]
+  destinations:
+    - "postgres"
+  spec:
+    api_debug: true
+    start_date: "2023-05-15T08:00:00Z" # for free plan up to 1 year ago
+    interval: 24h
+    rate_duration: 30d
+    rate_number: 25000
+    tickers:
+      ["btc-bitcoin", "eth-ethereum"]

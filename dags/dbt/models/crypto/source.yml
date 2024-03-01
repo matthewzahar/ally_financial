@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: cloudquery_coinpaprika
+    schema: public
+    tables:
+      - name: coinpaprika_tickers
+        identifier: coinpaprika_tickers
+      - name: coinpaprika_coins
+        identifier: coinpaprika_coins
+      - name: coinpaprika_exchanges
+        identifier: coinpaprika_exchanges
+      

@@ -1,0 +1,12 @@
+ally:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: host.docker.internal
+      user: postgres
+      password: password
+      port: 32768
+      dbname: postgres
+      schema: public
+      threads: 1

@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: btc_1
+    columns:
+      - name: timestamp
+        tests:
+          - unique
+          - not_null
+      - name: price
+        tests:
+          - unique
+          - not_null
+  - name: crypto_top10
+    columns:
+      - name: dense_rank
+        tests:
+          - accepted_values:
+              values: [1,2,3,4,5,6,7,8,9,10]
+      - name: coin_id
+        tests:
+          - relationships:
+              to: source('cloudquery_coinpaprika', 'coinpaprika_coins')
+              field: id
+
+  - name: active_exchanges
+    columns: 
+      - name: id
+        tests:
+          - unique
+          - not_null
+
+  - name: high_volume_exchanges
+    columns:
+      - name: adjusted_volume_24h
+        tests:
+          - not_null
