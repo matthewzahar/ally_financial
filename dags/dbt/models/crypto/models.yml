@@ -20,5 +20,18 @@ models:
       - name: coin_id
         tests:
           - relationships:
-              to: source('coinpaprika_coins', 'coinpaprika_coins')
+              to: source('cloudquery_coinpaprika', 'coinpaprika_coins')
               field: id
+
+  - name: active_exchanges
+    columns: 
+      - name: id
+        tests:
+          - unique
+          - not_null
+
+  - name: high_volume_exchanges
+    columns:
+      - name: adjusted_volume_24h
+        tests:
+          - not_null

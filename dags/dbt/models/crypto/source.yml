@@ -6,9 +6,8 @@ sources:
     tables:
       - name: coinpaprika_tickers
         identifier: coinpaprika_tickers
-  - name: coinpaprika_coins
-    schema: public
-    tables:
       - name: coinpaprika_coins
         identifier: coinpaprika_coins
+      - name: coinpaprika_exchanges
+        identifier: coinpaprika_exchanges
       
